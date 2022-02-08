@@ -13,7 +13,7 @@ class NoResultsState implements IControllerState {
   @override
   Widget render() {
     return const Text(
-      'No Results',
+      'Sem resultado',
       style: TextStyle(fontSize: 24.0),
       textAlign: TextAlign.center,
     );
